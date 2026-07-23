@@ -1,22 +1,19 @@
-# Lina Studio — Yoga Web App MVP v2
+# Yoga con Rocío — Web App v3
 
-A polished, minimalist, single-page yoga web app prototype.
+Minimal responsive yoga platform prototype with:
 
-## Main modules
-- Home
-- Explore
-- Shop: Programs, Objects, Clothing, Beauty
-- My Practice with activity overview
-- Creator Access for classes, videos, images, shop items and brand image
+- Scrollable editorial home page
+- Stable Explore, Studio Shop and My Practice modules
+- Improved class watching screen
+- Creator access for classes, videos, covers, shop items and homepage image
+- Browser-local demo persistence through localStorage and IndexedDB
 
 ## Run locally
+
 ```bash
 python3 -m http.server 8000
 ```
-Open http://localhost:8000
 
-## Deploy
-Upload the contents of this folder to GitHub and import the repository into Vercel.
+Open `http://localhost:8000`.
 
-## Prototype limitations
-Uploaded files are stored in the current browser using IndexedDB/localStorage. A production version should connect authentication, cloud video storage, a database and payments.
+For production, connect authentication/database storage, secure video hosting and payments.
