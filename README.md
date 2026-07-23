@@ -1,19 +1,29 @@
-# Yoga con Rocío — Web App v3
+# Yoga con Rocío — Dark Studio v4
 
-Minimal responsive yoga platform prototype with:
+A responsive, static web-app prototype ready for GitHub and Vercel.
 
-- Scrollable editorial home page
-- Stable Explore, Studio Shop and My Practice modules
-- Improved class watching screen
-- Creator access for classes, videos, covers, shop items and homepage image
-- Browser-local demo persistence through localStorage and IndexedDB
+## Included
+- Scrollable editorial homepage
+- Dark modern wellness theme
+- Mood-based discovery
+- Stable Explore, Shop and My Practice modules
+- Improved cinematic video page
+- Creator dashboard
+- Upload/replace cover images
+- Upload local demo videos (stored in IndexedDB)
+- Add/edit classes and shop items
 
 ## Run locally
+Open `index.html`, or run:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000`.
+Then visit `http://localhost:8000`.
 
-For production, connect authentication/database storage, secure video hosting and payments.
+## Deploy
+Upload the contents of this folder to a GitHub repository and import it into Vercel as an “Other” framework project.
+
+## Prototype limitation
+Creator uploads are saved only in the browser used for testing. Production sharing requires Supabase plus Cloudflare Stream or Mux.
